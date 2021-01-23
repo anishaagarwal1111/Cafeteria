@@ -5,7 +5,6 @@ const dotenv = require('dotenv');
 const colors = require('colors');
 const menuRoute = require('./routes/menuRoute');
 const authRoute = require('./routes/authRoute');
-const cartRoute = require('./routes/cartRoute');
 const cookieParser =require('cookie-parser');
 const {requireAuth, currentUser} = require('./Middleware/authmiddleware');
 const path = require('path');
